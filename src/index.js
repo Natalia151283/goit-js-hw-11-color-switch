@@ -12,8 +12,6 @@ const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
-
-
 const btnStop = document.querySelector("button[data-action = stop]");
 
 const btnStart = document.querySelector("button[data-action = start]");
